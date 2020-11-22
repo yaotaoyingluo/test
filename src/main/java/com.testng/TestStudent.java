@@ -3,7 +3,7 @@ package com.testng;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-//@Test
+
 public class TestStudent {
 
     public TestStudent() {
@@ -55,6 +55,12 @@ public class TestStudent {
         Assert.assertTrue(a,"true");
 
     }
+
+    public void test222(){
+        System.out.printf("未添加test注解-------");
+    }
+
+
 
     @AfterMethod
     public void  testAfterMethod(){
