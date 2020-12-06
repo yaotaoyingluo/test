@@ -17,13 +17,13 @@ public class TestGroup {
     }
 
     @Test(groups = "selenium-test")
-    public void runSelenium() {
-        System.out.println("runSelenium()");
+    public void runSelenium1() {
+        System.out.println("runSelenium()1");
     }
 
     @Test(groups = "selenium-test")
-    public void runSelenium1() {
-        System.out.println("runSelenium()1");
+    public void runSelenium() {
+        System.out.println("runSelenium()");
     }
 
     @Test(groups = "database")
@@ -39,5 +39,10 @@ public class TestGroup {
     @Test(dependsOnGroups = { "database", "selenium-test" })
     public void runFinal() {
         System.out.println("runFinal");
+    }
+
+    @Test(groups = "test")
+    public void test(){
+        System.out.println("test ");
     }
 }
