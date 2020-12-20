@@ -4,15 +4,15 @@
 
     <test name="order">
         <classes>
-            <class name="com.testng.TestConfig" />
-            <class name="com.testng.TestOrder" />
+            <class name="com.testng.testsuit.TestConfig" />
+            <class name="com.testng.testsuit.TestOrder" />
         </classes>
     </test>
 
     <test name="database">
         <classes>
-          <class name="com.testng.TestConfig" />
-          <class name="com.testng.TestDatabase" />
+          <class name="com.testng.testsuit.TestConfig" />
+          <class name="com.testng.testsuit.TestDatabase" />
        </classes>
 </test>
 </suite>

@@ -3,8 +3,8 @@
 <suite name="TestAll">
     <test name="order">
         <classes>
-            <class name="com.testng.TestConfig" />
-            <class name="com.testng.TestOrder">
+            <class name="com.testng.testsuit.TestConfig" />
+            <class name="com.testng.testsuit.TestOrder">
             <methods>
                     <!--<include name="testMakeOrder" />-->
                     <!--<include name="testUpdateOrder" />-->

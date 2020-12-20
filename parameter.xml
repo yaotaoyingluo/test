@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test-parameter">
+    <test name="test1">
+        <parameter name="stuName" value="yaotao"/>
+        <parameter name="stuCount" value="10"/>
+
+        <classes>
+            <class name="com.testng.testparammterized.TestParamsFromXml"/>
+        </classes>
+    </test>
+</suite>
